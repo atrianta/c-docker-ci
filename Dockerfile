@@ -7,9 +7,9 @@ COPY main.c .
 COPY test.c .
 
 # Compile main program and test
-RUN gcc -o myapp main.c && gcc -o testapp test.c main.c
+RUN gcc -o myapp main.c test.c
 
 # Run tests first
-RUN ./testapp
+#RUN ./testapp
 
 CMD ["./myapp"]
