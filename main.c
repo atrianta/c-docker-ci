@@ -3,7 +3,7 @@
 int add(int a, int b) {
     return a + b;
 }
-// function declaration
+// function declaration of run_tests
 void run_tests();
 
 int main() {
